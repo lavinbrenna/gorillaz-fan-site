@@ -12,17 +12,18 @@ img {
   background-color: darkcyan;
   width: 30%;
   height: 100%;
-  padding: 10px;
+  padding: 20px;
   float: left;
+  box-sizing: border-box;
   border-radius: 20px;
   align-content:center;
   margin: 10px;
 }
 img.band-member{
   width: 100px;
-  padding: 5px;
-  align-self: center;
+  margin: 10px;
 }
+
 
 a:hover{
   box-shadow: 0 0 5px 5px rgba(0,0,0,0);
@@ -37,14 +38,18 @@ a:hover{
   padding: 1em;
 }
 
-.murdock{
-  background-color: navy;
-  float: left;
-  border-radius: 50%;
-  width: 30%;
-}
+
 .column{
   float: left;
   width: 300px;
   padding: 1em;
 }
+
+.boxes {
+  border: 2px solid black;
+  padding: 4px;
+  margin: 12px;
+  box-sizing: border-box;
+}
+
+
