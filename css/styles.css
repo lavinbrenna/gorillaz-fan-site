@@ -1,0 +1,50 @@
+body{
+  background-color: #3bbbb9;
+}
+body.splash{
+  background-color: black;
+}
+
+img {
+  border-radius: 50%;
+}
+.band-member{
+  background-color: darkcyan;
+  width: 30%;
+  height: 100%;
+  padding: 10px;
+  float: left;
+  border-radius: 20px;
+  align-content:center;
+  margin: 10px;
+}
+img.band-member{
+  width: 100px;
+  padding: 5px;
+  align-self: center;
+}
+
+a:hover{
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0);
+}
+.music-player{
+  float: left;
+}
+.noodle {
+  float: left;
+  border-radius: 50%;
+  width: 30%;
+  padding: 1em;
+}
+
+.murdock{
+  background-color: navy;
+  float: left;
+  border-radius: 50%;
+  width: 30%;
+}
+.column{
+  float: left;
+  width: 300px;
+  padding: 1em;
+}
