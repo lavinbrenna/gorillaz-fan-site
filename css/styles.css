@@ -5,7 +5,9 @@ body{
 body.splash{
   background-color: black;
 }
-
+body.twoD{
+  background-color: #f6749a;
+}
 .splash img{
   height:100%;
   width: 100%;
